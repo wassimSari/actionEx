@@ -8,8 +8,10 @@ on :
 jobs:
     
     Myjob1:
-      runs-on: ubunto-latest
+      runs-on: windows 11
       steps:
       - name: print msg
         run: ecko "hello "
+      - name: hash code
+        run: ecko "
     
